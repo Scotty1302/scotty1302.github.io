@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    font-size: 16px;
+    background-color: grey;
+    max-width: 1150px;
+    text-align: center;
+}
+
+header {
+    margin: 30px auto;
+    font-size: 25px;
+    position: relative;
+}
+
+header:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    top: 150%;
+    left: 25%;
+}
+
+main ul {
+    margin: 0 auto
+}
+
+main ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 60px 0;
+}
+
+ul li a {
+    border: solid 3px black;
+    padding: 20px 30px;
+}
+
+footer {
+    margin: 25px auto;
+}
