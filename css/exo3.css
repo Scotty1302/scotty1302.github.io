@@ -10,6 +10,7 @@
 /* MQ<768 --------- */
 /* MQ<649 --------- */
 /* MQ<424 --------- */
+/* ---------------- */
 
 /* GLOBAL --------- */
 *{
@@ -328,6 +329,11 @@ footer{
 /* MQ<424 --------- */
 @media screen and (max-width: 424px) {
     main figure {
+        width: 100%;
+        margin: auto 0 20px 0;
+    }
+
+    main figure:nth-of-type(4) {
         width: 100%;
         margin: auto 0;
     }
