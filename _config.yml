@@ -2,5 +2,5 @@ theme: jekyll-theme-midnight
 title: Scotty Chouan
 description: Portfolio
 
-<a href="exo2" title="Redirection vers l'exo 2" target="_blank">
-<a href="exo3" title="Redirection vers l'exo 3" target="_blank">
+[TP4 CSS - Exercice 2](exo2.html)
+[TP4 CSS - Exercice 3](exo3.html)
