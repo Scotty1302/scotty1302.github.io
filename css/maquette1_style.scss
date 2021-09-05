@@ -5,7 +5,7 @@
 /* MAIN ----------- */
 /* ASIDE ---------- */
 /* MQ 1368 -------- */
-/* MQ 750 --------- */
+/* MQ 806 --------- */
 /* ---------------- */
 
 /* GLOBAL --------- */
@@ -247,19 +247,8 @@ aside {
                 max-width: 950px;
                 margin: 0 auto;
                 width: 80%;
+                height: 50%;
                 margin-left: 7rem;
-
-                &:nth-of-type(1) {
-                }
-
-                &:nth-of-type(2) {
-                }
-
-                &:nth-of-type(3) {
-                }
-
-                &:nth-of-type(4) {
-                }
             }
         }
     }
@@ -270,7 +259,8 @@ aside {
 
         .laSidebar {
             position: absolute;
-            width: 100%;
+            width: -moz-fit-content;
+            width: fit-content;
             height: 378px;
             margin-right: 0;
             background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0.26%, rgba(0, 0, 0, 0) 9.39%);
@@ -312,11 +302,11 @@ aside {
 }
 
 
-/* MQ 750 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 750px) {
+/* MQ 806 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 806px) {
     /* HEADER --------- */
     header {
-        max-width: 750px;
+        max-width: 806px;
         text-align: center;
         nav {
             width: 100%;
@@ -365,7 +355,7 @@ aside {
 
             .articleEntier {
                 flex-wrap: wrap;
-                max-width: 750px;
+                max-width: 806px;
                 width: -moz-fit-content; /* fit-content ne fonctionnait pas sur firefox*/
                 width: fit-content;
                 margin: 0 auto 0 0.8rem;
