@@ -4,15 +4,15 @@
 /* HEADER --------- */
 /* MAIN ----------- */
 /* ASIDE ---------- */
-/* MQ 1368 -------- */
-/* MQ 806 --------- */
+/* MQ 1203 -------- */
+/* MQ 853 --------- */
 /* ---------------- */
 /* GLOBAL --------- */
 * {
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 body {
@@ -23,30 +23,23 @@ body {
 header {
   padding-top: 1.2rem;
   width: 100%;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 3;
 }
-
 header nav {
   max-width: 1400px;
   width: 100%;
 }
-
 header nav ul {
   margin: auto 0 1.2rem 0rem;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   list-style: none;
 }
-
 header nav ul li {
   margin: 0.5rem 0 0.5rem 4.8rem;
 }
-
 header nav ul li a {
   padding: 1.2rem 1.5rem;
   color: #9F9F9F;
@@ -54,20 +47,16 @@ header nav ul li a {
   line-height: 21px;
   font-weight: 500;
 }
-
 header nav ul li a:hover {
   color: black;
 }
-
 header nav ul li .active {
   color: black;
 }
-
 header nav .logoFloat {
   float: right;
   margin: 0.5rem 0;
 }
-
 header nav .logoFloat img {
   padding: 0 1.2rem;
 }
@@ -85,25 +74,18 @@ main {
   margin: 0 auto;
   width: 100%;
   max-width: 1400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /* ASIDE ---------- */
 }
-
 main article {
   width: 85%;
   margin-top: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 main article .texteArticle {
   padding: 0 2rem;
   width: 100%;
 }
-
 main article .texteArticle .dateTime p {
   color: #9F9F9F;
   margin-bottom: 0.5rem;
@@ -111,69 +93,57 @@ main article .texteArticle .dateTime p {
   line-height: 23px;
   font-weight: 300;
 }
-
 main article .texteArticle h2 {
-  font-family: 'Cardo';
+  font-family: "Cardo";
   font-size: 2.25rem;
   margin-bottom: 0.4rem;
   line-height: 41px;
   font-weight: 700;
 }
-
 main article .texteArticle p {
   text-align: justify;
   line-height: 30px;
   font-weight: 500;
 }
-
 main article img {
   float: left;
   border-bottom: solid 6px #D8D8D8;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 main article:nth-of-type(4) {
   margin-bottom: 3rem;
 }
-
 main aside {
   margin-left: 0;
   width: 100%;
   max-width: 350px;
   background-color: #FBFBFB;
 }
-
 main aside .category {
   margin-bottom: 2.5rem;
   padding: 1.4rem 3.8rem;
 }
-
 main aside .category h3 {
   font-size: 1.9rem;
   line-height: 40px;
   font-weight: 700;
 }
-
 main aside .category ul {
   list-style: none;
 }
-
 main aside .category ul li {
   margin: 1.5rem 0;
 }
-
 main aside .category ul li a {
   color: #9F9F9F;
   text-decoration: none;
   line-height: 23px;
   font-weight: 500;
 }
-
 main aside .category:nth-of-type(1) {
   margin-bottom: 0;
 }
-
 main aside hr {
   width: 70%;
   height: 2px;
@@ -193,15 +163,16 @@ main aside hr {
     margin-left: 0.8rem;
     margin-right: 0.8rem;
   }
+
   .imageHeader img {
     height: 250px;
   }
+
   /* MAIN ----------- */
   main {
     max-width: 1203px;
     margin: 0 auto;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     /* ASIDE ---------- */
   }
   main section {
@@ -214,13 +185,9 @@ main aside hr {
     width: 100%;
   }
   main aside {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 2rem 5%;
     position: relative;
   }
@@ -228,13 +195,10 @@ main aside hr {
     margin-bottom: 0;
     margin-left: 4rem;
     padding: 1.4rem 1.5rem;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
   main aside hr {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
     position: absolute;
     left: 0;
     right: 0;
@@ -243,7 +207,6 @@ main aside hr {
     width: 281px;
   }
 }
-
 /* MQ 853 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 853px) {
   /* HEADER --------- */
@@ -265,23 +228,19 @@ main aside hr {
   }
   header nav .logoFloat {
     float: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 0;
     margin: 0 auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   header nav .logoFloat img {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
+
   .imageHeader {
     height: 136px;
   }
+
   /* MAIN ----------- */
   main {
     /* ASIDE ---------- */
@@ -292,8 +251,7 @@ main aside hr {
     padding-right: 1rem;
   }
   main section article {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     max-width: 853px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -346,7 +304,6 @@ main aside hr {
     display: block;
     text-align: center;
     width: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.26%, rgba(0, 0, 0, 0.25)), color-stop(3.79%, rgba(0, 0, 0, 0)));
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0.26%, rgba(0, 0, 0, 0) 3.79%);
     margin-left: 0;
     margin-right: 0;
@@ -364,8 +321,7 @@ main aside hr {
     padding-top: 2rem;
   }
   main aside hr {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    transform: rotate(180deg);
     width: 70%;
     height: 2px;
     background-color: #C4C4C4;
@@ -373,5 +329,4 @@ main aside hr {
     border-color: #C4C4C4;
     margin: 0 auto;
   }
-}
-/*# sourceMappingURL=maquette1_style.css.map */
+}/*# sourceMappingURL=maquette1_style.css.map */
