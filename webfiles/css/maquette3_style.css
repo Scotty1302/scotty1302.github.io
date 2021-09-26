@@ -1,0 +1,611 @@
+/* TABLE DES STYLES */
+/* ---------------- */
+/* GLOBAL --------- */
+/* HEADER --------- */
+/* MAIN ----------- */
+/* GIT&DISC LINKS - */
+/* SECTION 1 ------ */
+/* SECTION 2 ------ */
+/* SECTION 3 ------ */
+/* FOOTER --------- */
+/* MQ 1080 -------- */
+/* MQ 900 --------- */
+/* MQ 561 --------- */
+/* MQ 465 --------- */
+/* MQ 350 --------- */
+/* ---------------- */
+/* GLOBAL --------- */
+* {
+  margin: 0 auto;
+  padding: 0;
+  color: #454658;
+  font-family: "SF UI Text";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("../src/fonts/SFUIText-Regular.ttf") format("ttf");
+  font-family: "SF UI Text Semibold";
+  src: url("../src/fonts/SFUIText-Semibold.tff") format("ttf");
+  font-family: "HK Grotesk";
+  src: url("../src/fonts/HKGrotesk-Regular.otf") format("otf");
+  font-family: "HK Grotesk Extrabold";
+  src: url("../src/fonts/HKGrotesk-ExtraBold.otf") format("otf");
+  font-family: "Hack";
+  src: url("../src/fonts/Hack-Regular.tff") format("ttf");
+}
+section {
+  max-width: 1400px;
+  padding: 0 1rem;
+}
+
+/* HEADER --------- */
+header {
+  padding-top: 1.3rem;
+  background-color: #151B2B;
+  width: 100%;
+  height: 100vh;
+}
+header section .headerTitle {
+  margin-top: 1.1rem;
+}
+header section .headerTitle img {
+  float: left;
+  width: 41.19px;
+  height: 49px;
+}
+header section .headerTitle p {
+  color: #A8A8C1;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 1.7rem;
+  padding: 0.2rem 0 0 3rem;
+  margin-bottom: 0.3rem;
+}
+header section .headerCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header section .headerCenter .headerTexts {
+  margin-left: 0;
+  padding-right: 3rem;
+  flex: 1;
+}
+header section .headerCenter .headerTexts h1 {
+  color: white;
+  font-family: "HK Grotesk ExtraBold";
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+header section .headerCenter .headerTexts h2 {
+  color: white;
+  font-family: "SF UI Text Semibold";
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+header section .headerCenter .headerTexts p {
+  color: #8686B2;
+  margin-top: 2.2rem;
+  padding-right: 9rem;
+}
+header section .headerCenter .headerTexts .gitDiscordLinks a:nth-of-type(1):hover {
+  transition-duration: 0.8s;
+  filter: drop-shadow(0 0 6px #5D64D2);
+}
+header section .headerCenter .headerTexts .gitDiscordLinks a:nth-of-type(2):hover {
+  transition-duration: 0.8s;
+  filter: drop-shadow(0 0 6px #5D64D2);
+}
+header section .headerCenter .imageHeader {
+  margin-right: 0;
+  margin-bottom: 6rem;
+  flex: 1;
+  width: 670px;
+  height: 812px;
+}
+header section .headerCenter .imageHeader img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header section .headerCenter .imageHeader img:hover {
+  transition-duration: 0.8s;
+  transform: translateX(-35%) scaleX(1.1) scaleY(1.1);
+}
+header section .headerCenter .imageHeader img:not(:hover) {
+  transition-duration: 0.8s;
+}
+
+/* GIT&DISC LINKS - */
+.gitDiscordLinks {
+  margin-top: 3rem;
+}
+.gitDiscordLinks a {
+  font-family: "SF UI Text Semibold";
+  font-size: 0.8rem;
+  color: white;
+  padding: 0.5rem 0.7rem 0.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+  position: relative;
+}
+.gitDiscordLinks a img {
+  position: absolute;
+}
+.gitDiscordLinks a:not(:hover) {
+  transition-duration: 0.8s;
+}
+.gitDiscordLinks a:nth-of-type(1) {
+  background-color: #454658;
+  margin-right: 1.2rem;
+}
+.gitDiscordLinks a:nth-of-type(1) img {
+  left: 10px;
+  top: 10px;
+  width: 19.16px;
+  height: 17.87px;
+}
+.gitDiscordLinks a:nth-of-type(2) {
+  background-color: #6578C0;
+}
+.gitDiscordLinks a:nth-of-type(2) img {
+  left: 12px;
+  top: 10px;
+  width: 17px;
+  height: 19px;
+}
+
+/* MAIN ----------- */
+main {
+  background-color: #F9F9FD;
+  z-index: 1;
+  /* SECTION 1 ------ */
+  /* SECTION 2 ------ */
+  /* SECTION 3 ------ */
+}
+main section:nth-of-type(1) {
+  text-align: center;
+}
+main section:nth-of-type(1) h2 {
+  font-family: "HK Grotesk ExtraBold";
+  font-size: 1.9rem;
+  padding-top: 3rem;
+}
+main section:nth-of-type(1) p {
+  max-width: 700px;
+  padding-top: 1.3rem;
+}
+main section:nth-of-type(1) img {
+  padding-top: 1.7rem;
+  width: 100%;
+  max-width: 1200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main section:nth-of-type(2) {
+  text-align: center;
+  position: relative;
+}
+main section:nth-of-type(2) h2 {
+  font-family: "HK Grotesk ExtraBold";
+  font-size: 1.9rem;
+  padding-top: 7rem;
+  position: inherit;
+  z-index: 1;
+}
+main section:nth-of-type(2) p.sectionTwoDesc {
+  padding: 1.3rem 0 4.1rem 0;
+  position: inherit;
+  z-index: 1;
+}
+main section:nth-of-type(2) .usageBG {
+  position: relative;
+  max-width: 840px;
+  max-height: 405px;
+}
+main section:nth-of-type(2) .usageBG img {
+  position: absolute;
+  top: -185px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+main section:nth-of-type(2) .whiteBlock {
+  text-align: left;
+  background-color: white;
+  padding: 1.5rem;
+  filter: drop-shadow(0 2px 4px grey);
+}
+main section:nth-of-type(2) .whiteBlock h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 0;
+  background-color: #5D64D2;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+main section:nth-of-type(2) .whiteBlock p {
+  font-family: "Hack";
+  padding-top: 1.3rem;
+}
+main section:nth-of-type(2) .whiteBlock .lineOfCode:hover {
+  transition-duration: 0.5s;
+  background-color: gainsboro;
+}
+main section:nth-of-type(2) .whiteBlock .lineOfCode:not(:hover) {
+  transition-duration: 0.5s;
+}
+main section:nth-of-type(2) .whiteBlock .space {
+  padding-left: 1.8rem;
+}
+main section:nth-of-type(2) .whiteBlock .indigo {
+  color: #5D64D2;
+}
+main section:nth-of-type(2) .whiteBlock .purple {
+  color: #B160F0;
+}
+main section:nth-of-type(2) .whiteBlock .gray {
+  color: #A8A8C1;
+}
+main section:nth-of-type(2) .whiteBlock .orange {
+  color: #FF6240;
+}
+main section:nth-of-type(2) .whiteBlock .cyan {
+  color: #43C9D5;
+}
+main section:nth-of-type(2) .whiteBlock .darkblue {
+  color: #4548B0;
+}
+main section:nth-of-type(2) .gitDiscordLinks {
+  margin-top: 2.6rem;
+}
+main section:nth-of-type(2) .gitDiscordLinks a img {
+  margin-left: 0;
+}
+main section:nth-of-type(2) .gitDiscordLinks a:nth-of-type(1):hover {
+  transition-duration: 0.8s;
+  filter: drop-shadow(0 0 6px #5D64D2);
+}
+main section:nth-of-type(2) .gitDiscordLinks a:nth-of-type(2):hover {
+  transition-duration: 0.8s;
+  filter: drop-shadow(0 0 6px #5D64D2);
+}
+main section:nth-of-type(3) {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section:nth-of-type(3) article {
+  padding-top: 7rem;
+  max-width: 500px;
+}
+main section:nth-of-type(3) article h2 {
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 1.7rem;
+  padding: 0.7rem 0 1.1rem 0;
+}
+main section:nth-of-type(3) article p {
+  padding-bottom: 1rem;
+}
+main section:nth-of-type(3) article a {
+  color: #5D64D2;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+main section:nth-of-type(3) article a:hover {
+  transition-duration: 0.5s;
+  letter-spacing: 0.25rem;
+}
+main section:nth-of-type(3) article a:hover .arrowRight {
+  display: unset;
+}
+main section:nth-of-type(3) article a:not(:hover) {
+  transition-duration: 0.5s;
+}
+main section:nth-of-type(3) article a:not(:hover) .arrowRight {
+  display: none;
+}
+main section:nth-of-type(3) article:nth-of-type(1) img {
+  margin-bottom: 0.5rem;
+}
+main section:nth-of-type(3) article:nth-of-type(even) {
+  margin-right: 0;
+}
+main section:nth-of-type(3) article:nth-of-type(odd) {
+  margin-left: 0;
+}
+
+h4 {
+  text-align: center;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 1.9rem;
+  padding: 7rem 1rem 11rem 1rem;
+}
+
+/* FOOTER --------- */
+footer {
+  background-color: #151B2B;
+  padding: 5rem 0 2rem 0;
+  width: 100%;
+}
+footer section:nth-of-type(1) .footerTitle {
+  padding-bottom: 3.7rem;
+}
+footer section:nth-of-type(1) .footerTitle img {
+  float: left;
+  width: 38px;
+  height: 38px;
+}
+footer section:nth-of-type(1) .footerTitle p {
+  font-family: "HK Grotesk";
+  color: #A8A8C1;
+  font-size: 1.2rem;
+  padding: 0.2rem 0 0 2.5rem;
+}
+footer section:nth-of-type(1) .footerCategories {
+  display: flex;
+  padding-bottom: 3.8rem;
+}
+footer section:nth-of-type(1) .footerCategories p {
+  color: white;
+  padding: 0 0 2.4rem 0;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a {
+  padding: 0.15rem 0.75rem;
+  border: solid 1px gray;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  position: relative;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 6px;
+  top: 5px;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:hover {
+  transition-duration: 0.8s;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:not(:hover) {
+  transition-duration: 0.8s;
+  opacity: 50%;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(1) {
+  background-color: #454658;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(2) {
+  background-color: #0e76a8;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(2) img {
+  filter: invert(100%);
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(3) {
+  background-color: #00acee;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(3) img {
+  filter: invert(100%);
+  height: 17px;
+  top: 7px;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(4) {
+  background-color: #6578C0;
+}
+footer section:nth-of-type(1) .footerCategories .footerSocials a:nth-of-type(4) img {
+  width: 18px;
+  left: 7px;
+}
+footer section:nth-of-type(1) .footerCategories .githubStars {
+  padding-top: 2rem;
+}
+footer section:nth-of-type(1) category {
+  flex: 1;
+  padding: 0 0.5rem;
+}
+footer section:nth-of-type(1) category ul {
+  list-style: none;
+}
+footer section:nth-of-type(1) category ul li {
+  margin-bottom: 1rem;
+}
+footer section:nth-of-type(1) category ul li h5 {
+  font-family: "SF UI Text Semibold";
+  color: white;
+  padding-bottom: 0.5rem;
+}
+footer section:nth-of-type(1) category ul li a {
+  text-decoration: none;
+  color: #8686B2;
+}
+footer section:nth-of-type(1) category ul li a:hover {
+  transition-duration: 0.5s;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+footer section:nth-of-type(1) category ul li a:not(:hover) {
+  transition-duration: 0.5s;
+}
+footer section:nth-of-type(1) category:nth-of-type(2) ul li:nth-of-type(2) a:hover {
+  transition-duration: 0.5s;
+  letter-spacing: initial;
+  font-weight: 700;
+}
+footer section:nth-of-type(1) category:nth-of-type(1) {
+  flex: 2;
+  padding: 0 1rem 0 0;
+}
+footer section:nth-of-type(1) category:nth-of-type(5) {
+  padding: 0 0 0 1rem;
+}
+footer hr {
+  max-width: 1400px;
+}
+footer section:nth-of-type(2) {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+footer section:nth-of-type(2) p {
+  font-size: 0.85rem;
+}
+footer section:nth-of-type(2) p a {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #5D64D2;
+}
+footer section:nth-of-type(2) p a:hover {
+  text-decoration: underline;
+}
+
+/* MQ 1080 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 1080px) {
+  /* MAIN ----------- */
+  /* SECTION 3 ------ */
+  main section:nth-of-type(3) {
+    display: unset;
+  }
+  main section:nth-of-type(3) article {
+    max-width: 700px;
+    text-align: center;
+  }
+  main section:nth-of-type(3) article:nth-of-type(even) {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  main section:nth-of-type(3) article:nth-of-type(odd) {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  /* FOOTER --------- */
+  footer {
+    padding-top: 3rem;
+  }
+  footer section:nth-of-type(1) .footerTitle {
+    padding-bottom: 2rem;
+  }
+  footer section:nth-of-type(1) .footerCategories {
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+  }
+  footer section:nth-of-type(1) category ul li h5 {
+    padding-top: 2.6rem;
+  }
+  footer section:nth-of-type(1) category:nth-of-type(1) {
+    text-align: center;
+    padding-right: 0;
+  }
+  footer section:nth-of-type(1) category:nth-of-type(1) {
+    flex: 1 0 85%;
+  }
+}
+/* MQ 900 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 900px) {
+  /* HEADER --------- */
+  header section .headerCenter {
+    display: unset;
+    text-align: center;
+  }
+  header section .headerCenter .headerTexts {
+    padding-right: 0;
+  }
+  header section .headerCenter .headerTexts h2 {
+    margin-top: 1.5rem;
+    padding-right: 0;
+  }
+  header section .headerCenter .headerTexts p {
+    margin-top: 1.5rem;
+    padding-right: 0;
+  }
+  header section .headerCenter .imageHeader {
+    padding-top: 1.5rem;
+    margin-right: auto;
+    width: auto;
+  }
+  header section .headerCenter .imageHeader img {
+    height: 50%;
+  }
+  header section .headerCenter .imageHeader img:hover {
+    transform: none;
+  }
+
+  /* GIT&DISC LINKS - */
+  .gitDiscordLinks {
+    margin-top: 1.5rem;
+  }
+
+  /* MAIN ----------- */
+  /* SECTION 1 ------ */
+  main {
+    /* SECTION 3 ------ */
+  }
+  main section:nth-of-type(1) p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main section:nth-of-type(3) article {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/* MQ 561 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 561px) {
+  /* MAIN ----------- */
+  /* SECTION 3 ------ */
+  main section:nth-of-type(3) article img {
+    max-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  /* FOOTER --------- */
+  footer section:nth-of-type(1) .footerCategories category:nth-of-type(1n+2) {
+    flex: 1 0 40%;
+  }
+  footer section:nth-of-type(1) .footerCategories category:nth-of-type(3) {
+    text-align: right;
+  }
+  footer section:nth-of-type(1) .footerCategories category:nth-of-type(5) {
+    text-align: right;
+  }
+}
+/* MQ 465 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (max-width: 465px) {
+  /* GIT&DISC LINKS - */
+  .gitDiscordLinks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gitDiscordLinks a {
+    flex: 1 0 80%;
+  }
+  .gitDiscordLinks a:nth-of-type(1) {
+    margin: 0 auto 1rem auto;
+  }
+}
+/* MQ 350 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 350px) {
+  /* FOOTER --------- */
+  footer section:nth-of-type(1) .footerCategories category:nth-of-type(1n+2) {
+    text-align: center;
+    flex: 1 0 50%;
+  }
+  footer section:nth-of-type(1) .footerCategories category:nth-of-type(5) {
+    padding: 0;
+  }
+}/*# sourceMappingURL=maquette3_style.css.map */
