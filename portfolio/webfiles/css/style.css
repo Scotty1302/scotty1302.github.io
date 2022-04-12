@@ -497,8 +497,6 @@ main section .scrollToTop:hover {
 }
 .glimmer .audio-group .audio-top audio, .glimmer .audio-group .audio-bottom audio {
   margin-bottom: 1rem;
-  border: 2px black solid;
-  border-radius: 5px;
 }
 
 .composition .first-audio {
