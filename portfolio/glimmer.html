@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jeu d'action-réflexion Glimmer, conçu sur Unity">
+    <link rel="stylesheet" href="webfiles/css/style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <script src="webfiles/js/script.js" defer></script>
+    <title>Scotty Chouan - Jeu d'action-réflexion : Glimmer</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Scotty&#160;Chouan</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="glimmer">
+            <div class="solo-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PbKCV8mu6AY" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2>Jeu d'action-réflexion&#160;: Glimmer</h2>
+            <h3><span class="underline">Catégorie&#160;:</span> Game Design&#160;- Sound Design</h3>
+            <p><span class="italic">Glimmer</span> est un jeu à la 1ère personne de type Action-aventure conçu fin 2017-début 2018 dans une équipe de 4 élèves pendant ma 2nde 
+                année à l'<span class="italic">ICAN</span>. Il a d'ailleurs été sélectionné aux <span class="italic">Hits Playtime 2019</span>.</p>
+            <p>Dans celui-ci, vous évoluez dans un environnement de couleurs aveuglantes. Votre seul moyen de vous repérer est l'utilisation d'une entité rebondissante, 
+                améliorant votre visibilité tout autour d'elle et pouvant être lancée où vous voulez, à condition qu'elle possède encore de l'énergie.
+                <span class="linebreak"></span>Grâce à cette même entité, vous pourrez par la suite restaurer vos environs à leur état non-aveuglant et découvrir de nouvelles 
+                capacités variant ses effets.</p>
+            <div class="slider">
+                <div class="slider-center">
+                    <div class="slider-picture1 modal-ready">
+                        <img id="1" class="original-image active-slider1" src="src/img/Glimmer/Glimmer1-resized.jpg" alt="1 couloir de chaque salle">
+                        <p class="label-left">1 couloir de chaque salle</p>
+                        <p class="label-right">1/5</p>
+                    </div>
+                    <div class="slider-picture1 modal-ready">
+                        <img id="2" class="original-image" src="src/img/Glimmer/Glimmer2-resized.png" alt="Zone hub - 1">
+                        <p class="label-left">Zone hub - 1</p>
+                        <p class="label-right">2/5</p>
+                    </div>
+                    <div class="slider-picture1 modal-ready">
+                        <img id="3" class="original-image" src="src/img/Glimmer/Glimmer3-resized.png" alt="Zone hub - 2">
+                        <p class="label-left">Zone hub - 2</p>
+                        <p class="label-right">3/5</p>
+                    </div>
+                    <div class="slider-picture1 modal-ready">
+                        <img id="4" class="original-image" src="src/img/Glimmer/Glimmer4-resized.png" alt="Environnement non-aveuglant">
+                        <p class="label-left">Environnement non-aveuglant</p>
+                        <p class="label-right">4/5</p>
+                    </div>
+                    <div class="slider-picture1 modal-ready">
+                        <img id="5" class="original-image" src="src/img/Glimmer/Glimmer5-resized.png" alt="Écran titre">
+                        <p class="label-left">Écran titre</p>
+                        <p class="label-right">5/5</p>
+                    </div>
+                    <button class="slider-left1">&#12296;</button>
+                    <button class="slider-right1">&#12297;</button>
+                </div>
+            </div>
+            <p>Bien que le jeu soit pour l'instant uniquement sur PC, nous prévoyons d'en faire une version en VR qui permettra certainement de le rendre plus immersif et 
+                d'améliorer encore plus l'expérience désorientante que nous voulons créer.</p>
+            <p>La version PC peut être téléchargée ici&#160;: <a href="https://eshe.itch.io/glimmer" class="link" title="Redirection vers la page Itch.io de Glimmer" 
+                target="_blank">Page Itch.io</a>.</p>
+            <p>En plus de travailler sur le Game Design, j'ai été le Sound Designer de ce projet et ai composé tous les effets sonores ainsi que les musiques d'ambiances de 
+                celui-ci. Celles-ci se devaient d'être cohérentes vis-à-vis de notre univers sobre et rassurant.<span class="linebreak"></span>Voici les 4 ambiances sonores des 
+                zones que le joueur devra explorer une à une&#160;:</p>
+            <div class="audio-group">
+                <div class="audio-top">
+                    <audio controls src="src/audio/Glimmer/Salle_bleue_Écholocation.mp3"></audio>
+                    <audio controls src="src/audio/Glimmer/Salle_verte_Déviation.mp3"></audio>
+                </div>
+                <div class="audio-bottom">
+                    <audio controls src="src/audio/Glimmer/Salle orange Attraction.mp3"></audio>
+                    <audio controls src="src/audio/Glimmer/Salle rose Liaison.mp3"></audio>
+                </div>
+            </div>
+            <p>Ces musiques sont spatialisées, représentant un vrai atout pour aider le joueur à se repérer et à atteindre ses objectifs. De plus, au fur et à mesure qu'il 
+                progresse, divers instruments s'ajoutent à la composition.<span class="linebreak"></span>L'exemple le plus parlant est celui de la zone hub, reliant chacune des 
+                4 zones. Des leitmotivs empruntés à chaque ambiance ci-dessus s'ajoutent à l'ambiance du hub à chaque fois que la visibilité est restaurée dans leurs lieux 
+                respectifs.</p>
+            <p>Ci-dessous un extrait de l'ambiance initiale du hub, ainsi que de la même ambiance une fois les objectifs du jeu atteints dans chacune des zones&#160;:</p>
+            <div class="audio-group">
+                <div class="audio-top">
+                    <audio controls src="src/audio/Glimmer/Hub_Première_version.mp3"></audio>
+                    <audio controls src="src/audio/Glimmer/Hub_Dernière_version.mp3"></audio>
+                </div>
+            </div>
+            <h4 class="before-list">L'équipe de Glimmer&#160;:</h4>
+            <ul class="last-line">
+                <li>-&#160;<span class="italic">Scotty CHOUAN</span>&#160;- Game Design&#160;/ Sound Design</li>
+                <li>-&#160;<span class="italic">Charly ROUSSEAUX</span>&#160;- Game Design&#160;/ Programmation</li>
+                <li>-&#160;<span class="italic">Alexandre LUCAS</span>&#160;- Game Design&#160;/ Programmation</li>
+                <li>-&#160;<span class="italic">Arnaud GUEGHEROUNI</span>&#160;- 3D Art&#160;/ 2D Art</li>
+            </ul>
+            <div class="redirect-buttons">
+                <a href="hotel.html" class="previous" title="Blockout d'Hôtel">Précédent</a>
+                <a href="index.html" class="return" title="Page d'accueil">Accueil</a>
+                <a href="composition.html" class="next" title="Composition musicale : March of Uncertainty">Suivant</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="footer-blocks">
+                <div class="contact-all">
+                    <h2>Contact&#160;:</h2>
+                    <div class="contact-block">
+                        <img src="src/icons/Address.svg" alt="Icône d'adresse">
+                        <p>
+                            24&#160;Rue&#160;Albert&#160;Thomas
+                            <span class="linebreak"></span>
+                            02600&#160;Villers-Cotterêts
+                        </p>
+                    </div>
+                    <div class="contact-block">
+                        <img src="src/icons/Phone.svg" alt="Icône de téléphone">
+                        <a href="tel:+666425619" class="link" title="Appel téléphonique" rel="noopener">06&#160;66&#160;42&#160;56&#160;19</a>
+                    </div>
+                    <div class="contact-block">
+                        <img src="src/icons/Mail.svg" alt="Icône de mail">
+                        <a href="mailto:scotty.chouan@gmail.com" class="link" title="Envoi de mail" rel="noopener">scotty.chouan@gmail.com</a>
+                    </div>
+                </div>
+                <div class="cv-all">
+                    <h2>CVs&#160;:</h2>
+                    <a href="#" class="link" title="CV de Game Designer / Level Designer">Game&#160;Designer&#160;<span class="hide-slash">/&#160;</span>Level&#160;Designer</a>
+                    <a href="#" class="link" title="CV de Développeur Web">Développeur Web</a>
+                    <a href="#" class="link" title="CV de QA Tester">QA&#160;Tester</a>
+                </div>
+            </div>
+            <p class="copyright">&#169;&#160;2022&#160;-&#160;Scotty&#160;Chouan</p>
+        </section>
+    </footer>
+</body>
+</html>
