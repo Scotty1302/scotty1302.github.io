@@ -510,7 +510,7 @@ main {
             audio {
                 margin-bottom: 1rem;
                 // border: 2px black solid;
-                // border-radius: 5px;
+                border-radius: 5px;
             }
         }
     }
@@ -521,8 +521,10 @@ main {
         display: flex;
         justify-content: center;
         width: fit-content;
-        border: 2px black solid;
-        border-radius: 5px;
+        // border: 2px black solid;
+        audio {
+            border-radius: 5px;
+        }
     }
 }
 .intothebreach {

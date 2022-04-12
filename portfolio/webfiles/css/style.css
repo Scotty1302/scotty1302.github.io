@@ -497,6 +497,7 @@ main section .scrollToTop:hover {
 }
 .glimmer .audio-group .audio-top audio, .glimmer .audio-group .audio-bottom audio {
   margin-bottom: 1rem;
+  border-radius: 5px;
 }
 
 .composition .first-audio {
@@ -506,7 +507,8 @@ main section .scrollToTop:hover {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  border: 2px black solid;
+}
+.composition .first-audio audio {
   border-radius: 5px;
 }
 
