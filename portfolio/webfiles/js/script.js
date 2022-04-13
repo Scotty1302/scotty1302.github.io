@@ -29,6 +29,13 @@ let modalDiv = null;
 let modalSliderLeft = null;
 let modalSliderRight = null;
 let sliderModalActivated1, sliderModalActivated2, sliderModalActivated3, sliderModalActivated4 = false;
+let projectName = document.querySelectorAll(".project-name");
+
+projectName.forEach(oneProjectName => {
+    oneProjectName.onclick=()=>{
+        window.location.href = oneProjectName.parentElement.querySelector("a").href;
+    }
+});
 
 titleRedirect.onclick=()=>{
     window.location.href = "index.html";

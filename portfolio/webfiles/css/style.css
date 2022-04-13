@@ -127,6 +127,9 @@ p, li {
   color: black;
   flex: 1;
 }
+.solo-modal .sliders-lr-modal-div .label-slider-left:hover, .solo-modal .sliders-lr-modal-div .label-slider-right:hover {
+  cursor: pointer;
+}
 .solo-modal .sliders-lr-modal-div .label-slider-left {
   border-top-left-radius: 5px;
   border-right: 0.5px solid black;
@@ -146,6 +149,9 @@ p, li {
 }
 .solo-modal .slider-modal-div .slider .slider-center .slider-picture1, .solo-modal .slider-modal-div .slider .slider-center .slider-picture2, .solo-modal .slider-modal-div .slider .slider-center .slider-picture3, .solo-modal .slider-modal-div .slider .slider-center .slider-picture4 {
   position: relative;
+}
+.solo-modal .slider-modal-div .slider .slider-center .slider-picture1:hover, .solo-modal .slider-modal-div .slider .slider-center .slider-picture2:hover, .solo-modal .slider-modal-div .slider .slider-center .slider-picture3:hover, .solo-modal .slider-modal-div .slider .slider-center .slider-picture4:hover {
+  cursor: default;
 }
 
 header section {
@@ -200,6 +206,9 @@ main section .transparent-picture {
 main section .transparent-picture img {
   width: 100%;
 }
+main section .transparent-picture img:hover {
+  cursor: pointer;
+}
 main section .solo-video {
   margin: 3rem auto 0 auto;
   display: flex;
@@ -250,6 +259,9 @@ main section .solo-picture, main section .middle-picture, main section .progress
   transition-duration: 0.5s;
   position: relative;
 }
+main section .solo-picture:hover, main section .middle-picture:hover, main section .progression-loop:hover {
+  cursor: pointer;
+}
 main section .solo-picture:hover .label-left, main section .middle-picture:hover .label-left, main section .progression-loop:hover .label-left {
   opacity: 1;
 }
@@ -270,6 +282,7 @@ main section .solo-picture .label-left, main section .middle-picture .label-left
   padding-right: 0.5rem;
   background-color: #777887;
   border-top: 2px black solid;
+  cursor: text;
 }
 main section .before-list {
   margin-bottom: 0.25rem;
@@ -290,6 +303,9 @@ main section .slider .slider-center .slider-picture3, main section .slider .slid
   transform: translate(0%);
   transition-duration: 0.5s;
 }
+main section .slider .slider-center .slider-picture3:hover, main section .slider .slider-center .slider-picture1:hover, main section .slider .slider-center .slider-picture2:hover, main section .slider .slider-center .slider-picture4:hover {
+  cursor: pointer;
+}
 main section .slider .slider-center .slider-picture3:hover .label-left, main section .slider .slider-center .slider-picture3:hover .label-right, main section .slider .slider-center .slider-picture1:hover .label-left, main section .slider .slider-center .slider-picture1:hover .label-right, main section .slider .slider-center .slider-picture2:hover .label-left, main section .slider .slider-center .slider-picture2:hover .label-right, main section .slider .slider-center .slider-picture4:hover .label-left, main section .slider .slider-center .slider-picture4:hover .label-right {
   opacity: 1;
 }
@@ -307,6 +323,7 @@ main section .slider .slider-center .slider-picture3 .label-left, main section .
   padding-right: 0.5rem;
   background-color: #777887;
   border-top: 2px black solid;
+  cursor: text;
 }
 main section .slider .slider-center .slider-picture3 .label-left, main section .slider .slider-center .slider-picture1 .label-left, main section .slider .slider-center .slider-picture2 .label-left, main section .slider .slider-center .slider-picture4 .label-left {
   left: 0;
@@ -439,6 +456,9 @@ main section .scrollToTop:hover {
   top: 50%;
   transform: translateY(-50%);
 }
+.homepage .projects-group .projects-block .thumbnail-group p:hover {
+  cursor: pointer;
+}
 .homepage .projects-group .projects-block .thumbnail-group a {
   width: 260px;
   height: 260px;
@@ -531,6 +551,9 @@ main section .scrollToTop:hover {
 .intothebreach .donnern-group .donnern-block img {
   width: 100%;
   margin: auto;
+}
+.intothebreach .donnern-group .donnern-block img:hover {
+  cursor: pointer;
 }
 .intothebreach .donnern-group .donnern-block:nth-of-type(1) {
   padding-right: 1rem;
