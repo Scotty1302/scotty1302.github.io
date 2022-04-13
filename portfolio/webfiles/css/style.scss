@@ -648,6 +648,16 @@ main {
         }
     }
 }
+.calculatrice {
+    .last-line {
+        margin-bottom: 4rem;
+    }
+}
+.district-aisne-billard {
+    .last-line {
+        margin-bottom: 10rem;
+    }
+}
 
 footer {
     section {
@@ -761,6 +771,16 @@ footer {
                 width: 579px;
                 height: 324.75px;
             }
+        }
+    }
+    .calculatrice {
+        .last-line {
+            margin-bottom: 2rem;
+        }
+    }
+    .district-aisne-billard {
+        .last-line {
+            margin-bottom: 2rem;
         }
     }
 }
