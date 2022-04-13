@@ -152,7 +152,6 @@ if(picturesForModal){
                 document.querySelector(".solo-modal").appendChild(modalLabelText);
             }
             if(onePicture.parentElement.className.includes("no-border")) {
-                console.log("transparent");
                 modalImg.style.border = "none";
             }
             modalExists = true;
@@ -212,7 +211,6 @@ document.onclick=()=>{
         }
         if(modalSliderLeft!=null){
             modalSliderLeft.onclick=()=> {
-                console.log("modal left slide");
                 if(sliderModalActivated1) {
                     SlideToLeft1();
                     document.querySelector(".label-modal-left").innerHTML = document.querySelector("section .slider .slider-center .slider-picture1 .active-slider1").parentElement.querySelector(".label-left").innerHTML;
@@ -240,8 +238,6 @@ document.onclick=()=>{
                         SlideToRight1();
                         document.querySelector(".label-modal-left").innerHTML = document.querySelector("section .slider .slider-center .slider-picture1 .active-slider1").parentElement.querySelector(".label-left").innerHTML;
                         document.querySelector(".label-modal-right").innerHTML = document.querySelector("section .slider .slider-center .slider-picture1 .active-slider1").parentElement.querySelector(".label-right").innerHTML;
-                        console.log((movementValue1*2)+200);
-                        console.log((allSliderPictures1.length)*100);
                     }
                 }
                 if((movementValue2*2)+200!=(allSliderPictures2.length)*100){
@@ -249,8 +245,6 @@ document.onclick=()=>{
                         SlideToRight2();
                         document.querySelector(".label-modal-left").innerHTML = document.querySelector("section .slider .slider-center .slider-picture2 .active-slider2").parentElement.querySelector(".label-left").innerHTML;
                         document.querySelector(".label-modal-right").innerHTML = document.querySelector("section .slider .slider-center .slider-picture2 .active-slider2").parentElement.querySelector(".label-right").innerHTML;
-                        console.log((movementValue2*2)+200);
-                        console.log((allSliderPictures2.length)*100);
                     }
                 }
                 if((movementValue3*2)+200!=(allSliderPictures3.length)*100){
@@ -258,8 +252,6 @@ document.onclick=()=>{
                         SlideToRight3();
                         document.querySelector(".label-modal-left").innerHTML = document.querySelector("section .slider .slider-center .slider-picture3 .active-slider3").parentElement.querySelector(".label-left").innerHTML;
                         document.querySelector(".label-modal-right").innerHTML = document.querySelector("section .slider .slider-center .slider-picture3 .active-slider3").parentElement.querySelector(".label-right").innerHTML;
-                        console.log((movementValue3*2)+200);
-                        console.log((allSliderPictures3.length)*100);
                     }
                 }
                 if((movementValue4*2)+200!=(allSliderPictures4.length)*100){
@@ -267,8 +259,6 @@ document.onclick=()=>{
                         SlideToRight4();
                         document.querySelector(".label-modal-left").innerHTML = document.querySelector("section .slider .slider-center .slider-picture4 .active-slider4").parentElement.querySelector(".label-left").innerHTML;
                         document.querySelector(".label-modal-right").innerHTML = document.querySelector("section .slider .slider-center .slider-picture4 .active-slider4").parentElement.querySelector(".label-right").innerHTML;
-                        console.log((movementValue4*2)+200);
-                        console.log((allSliderPictures4.length)*100);
                     }
                 }
             }
@@ -309,7 +299,8 @@ function SlideToRight1() {
                 }
                 oneSliderPicture.style.transform = "translate(-"+movementValue1+"%)";
             }
-            if(oneSliderPicture.querySelector("img").className.includes("active-slider1") && oneSliderPicture.querySelector("img").id==((movementValue1/100)) && oneSliderPicture.querySelector("img").id!=allSliderPictures1.length){
+            if(oneSliderPicture.querySelector("img").className.includes("active-slider1") && oneSliderPicture.querySelector("img").id==((movementValue1/100)) && 
+            oneSliderPicture.querySelector("img").id!=allSliderPictures1.length){
                 oneSliderPicture.querySelector("img").classList.remove("active-slider1");
             }
             if(oneSliderPicture.querySelector("img").id==((movementValue1/100)+1) && oneSliderPicture.querySelector("img").id!=allSliderPictures1.length+1){
@@ -528,17 +519,6 @@ if(allProjectsButton){
     }
 }
 
-// function progressiveFadeOut(fadingElement){
-//     let fadeOut = setInterval(function(){
-//         if(fadingElement.style.opacity>0){
-//             fadingElement.style.opacity -= 0.1;
-//         } else {
-//             clearInterval(fadeOut);
-//             fadingElement.classList.add("hidden");
-//         }
-//     }, 200);
-// }
-
 if(GDButton){
     GDButton.onclick=()=>{
         allProjects.forEach(GDProjects => {
@@ -554,10 +534,8 @@ if(GDButton){
             SDButton.style.backgroundColor = "#777887";
             if(GDProjects.className.includes("gd") && GDProjects.className.includes("hidden")){
                 GDProjects.classList.remove("hidden");
-                // GDProjects.style.opacity = 1;
             }
             if(!GDProjects.className.includes("gd")){
-                // progressiveFadeOut(GDProjects);
                 GDProjects.classList.add("hidden");
             }
         });
