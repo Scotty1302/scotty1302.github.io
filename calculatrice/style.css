@@ -1,0 +1,51 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.calculator {
+    background-color: black;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.operation-display {
+    background-color: darkmagenta;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: right;
+}
+
+.number-button {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.operator-multiply, .operator-divide, .operator-plus, .operator-minus {
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.operator-result {
+    background-color: darkred;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.operator-delete {
+    background-color: darkslateblue;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+}
