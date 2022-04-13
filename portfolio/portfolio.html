@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site statique : Portfolio">
+    <link rel="stylesheet" href="webfiles/css/style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <script src="webfiles/js/script.js" defer></script>
+    <title>Scotty Chouan - Site statique : Portfolio</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Scotty&#160;Chouan</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <h2>Site statique&#160;: Portfolio</h2>
+            <h3><span class="underline">Catégorie&#160;:</span> Développement Web</h3>
+            <p>J'ai conçu ce site en tant que portfolio regroupant tous mes projets personnels, et attestant de mes capacités de développeur orienté front-end. Ces projets 
+                touchent à divers domaines tels que la conception de jeux vidéo et niveaux de jeu, le développement web ou encore le design sonore.</p>
+            <p>Vous y trouverez notamment un système de tri de projets par thématique sur la <a href="index.html" class="link" title="Page d'accueil" >page d'accueil</a>, 
+                celui-ci permettant d'afficher soit tous mes projets soit uniquement ceux concernant le Game Design&#160;/ Level Design&#160;/ Développement Web&#160;/ Sound 
+                Design d'un clic sur le bouton correspondant.<span class="linebreak"></span>Ce système ainsi que ceux décrit ci-dessous n'utilisent d'ailleurs que du JavaScript 
+                natif et aucune librairie.</p>
+            <p>Pour certains projets, j'ai aussi fait le choix d'afficher des groupes d'images en donnant la possibilité de les faire défiler d'un appui sur une flèche droite ou 
+                gauche pour passer respectivement à l'image suivante ou à la précédente. On peut le voir par exemple sur <a href="wargroove.html" class="link" 
+                title="Campagne personnalisée de Wargroove" >cette page</a>.</p>
+            <p>De plus, chaque image ou regroupement d'image peut être affiché dans une modale centrale en cliquant sur l'image en question, tout en conservant la capacité de 
+                défiler d'une image à l'autre si cela est possible, comme on peut le voir sur <a href="shockndroids.html" class="link" 
+                title="Jeu d'action-multijoueurs Shock'n Droids" >la page suivante</a>.<span class="linebreak"></span>À quelques exceptions près, les images de mon portfolio sont 
+                aussi toutes agrémentées d'une légende textuelle ainsi que d'un numéro dans le cas d'un groupe de plusieurs images.</p>
+            <p class="before-list">Avant de démarrer la création de mon site, j'ai produit via <span class="italic">Figma</span> une maquette pour mon portfolio montrant un 
+                avant-goût de l'apparence du site en format mobile et desktop, dont voici le lien&#160;: 
+                <a href="https://www.figma.com/file/hIHr5j06ipSVGRVyftHppC/Portfolio-Scotty-Chouan?node-id=0%3A1" class="link" 
+                title="Redirection vers la maquette Figma de mon portfolio" target="_blank">Cliquez ici</a>.<span class="linebreak"></span>La seule différence notable avec le 
+                rendu final est que j'ai décidé d'afficher mes projets à l'horizontale plutôt qu'à la verticale sur ma page d'accueil format mobile, car cela permet&#160;:</p>
+            <ul>
+                <li>- De réduire les chances que l'utilisateur fasse accidentellement défiler la page plutôt que la liste de projets, et inversement.</li>
+                <li>- De conserver les boutons de tri de projets ainsi que les informations du pied de page le plus proche possible du champ de vision de l'utilisateur, car 
+                    cela sera plus pratique pour lui s'il veut interagir avec ceux-ci.</li>
+            </ul>
+            <p class="last-line">Enfin j'ai développé un bouton de "Retour en haut de page" qui apparaît en bas à droite une fois que l'utilisateur a suffisament fait défiler une 
+                page, peu importe laquelle, vers le bas. Un clic sur ce bouton permet d'automatiquement revenir à la hauteur maximum de la page.</p>
+            <div class="redirect-buttons">
+                <a href="modale-javascript.html" class="previous" title="Modales en JavaScript">Précédent</a>
+                <a href="index.html" class="return" title="Page d'accueil">Accueil</a>
+                <a href="chuchurocket.html" class="next" title="Niveau de ChuChu Rocket">Suivant</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="footer-blocks">
+                <div class="contact-all">
+                    <h2>Contact&#160;:</h2>
+                    <div class="contact-block">
+                        <img src="src/icons/Address.svg" alt="Icône d'adresse">
+                        <p>
+                            24&#160;Rue&#160;Albert&#160;Thomas
+                            <span class="linebreak"></span>
+                            02600&#160;Villers-Cotterêts
+                        </p>
+                    </div>
+                    <div class="contact-block">
+                        <img src="src/icons/Phone.svg" alt="Icône de téléphone">
+                        <a href="tel:+666425619" class="link" title="Appel téléphonique" rel="noopener">06&#160;66&#160;42&#160;56&#160;19</a>
+                    </div>
+                    <div class="contact-block">
+                        <img src="src/icons/Mail.svg" alt="Icône de mail">
+                        <a href="mailto:scotty.chouan@gmail.com" class="link" title="Envoi de mail" rel="noopener">scotty.chouan@gmail.com</a>
+                    </div>
+                </div>
+                <div class="cv-all">
+                    <h2>CVs&#160;:</h2>
+                    <a href="https://drive.google.com/file/d/1_50NAYSQoMe1OvdzAP0PWTJ5zhQnciW0/view?usp=sharing" class="link" title="Redirection vers mon CV de Game Designer / Level Designer" target="_blank">Game&#160;Designer&#160;/ Level&#160;Designer</a>
+                    <a href="https://drive.google.com/file/d/1_2LriQY0fbUN6irGJRN9LHRq-H6RCL_F/view?usp=sharing" class="link" title="Redirection vers mon CV de Développeur Web" target="_blank">Développeur&#160;Web</a>
+                    <a href="https://drive.google.com/file/d/1UaMk1BKyOJtqKp_4pnIG_5e80dNnb3Av/view?usp=sharing" class="link" title="Redirection vers mon CV de QA Tester" target="_blank">QA&#160;Tester</a>
+                </div>
+            </div>
+            <p class="copyright">&#169;&#160;2022&#160;-&#160;Scotty&#160;Chouan</p>
+        </section>
+    </footer>
+</body>
+</html>
