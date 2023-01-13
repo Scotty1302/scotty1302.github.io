@@ -629,6 +629,24 @@ main section .scrollToTop:hover {
   margin-bottom: 10rem;
 }
 
+.yugioh .middle-picture {
+  max-width: 520.5px;
+  max-height: 760px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.yugioh .middle-picture img {
+  width: 100%;
+}
+.yugioh h4 {
+  margin: 1.5rem auto 1rem auto;
+  text-align: center;
+}
+.yugioh h4:nth-of-type(1) {
+  margin: 0.5rem auto 1rem auto;
+}
+
 footer section {
   border-top: 2px #DDDDDD solid;
   max-width: 1440px;
@@ -707,16 +725,13 @@ footer section .copyright {
   .glimmer .slider .slider-left1, .glimmer .slider .slider-right1 {
     font-size: 3.5rem;
   }
-
   .shockndroids .slider .slider-center {
     width: 579px;
     height: 324.75px;
   }
-
   .calculatrice .last-line {
     margin-bottom: 2rem;
   }
-
   .district-aisne-billard .last-line {
     margin-bottom: 2rem;
   }
@@ -735,14 +750,12 @@ footer section .copyright {
   .arise .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
   }
-
   .intothebreach .donnern-group {
     flex-direction: column;
   }
   .intothebreach .donnern-group .donnern-block img {
     margin: auto auto 0 auto;
   }
-
   .wargroove .slider .slider-center {
     width: 426.7px;
     height: 240px;
@@ -756,7 +769,6 @@ footer section .copyright {
   .wargroove .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
   }
-
   .rivalsofaether .slider .slider-center {
     width: 480px;
     height: 270px;
@@ -795,7 +807,6 @@ footer section .copyright {
   main section .redirect-buttons .next {
     margin: 0 auto 2rem auto;
   }
-
   .homepage .project-buttons button:nth-child(1) {
     margin: 1.25rem 0.5rem 0 1.5rem;
   }
@@ -829,7 +840,6 @@ footer section .copyright {
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   .hotel .slider .slider-center {
     width: 331.875px;
     height: 146.25px;
@@ -843,7 +853,6 @@ footer section .copyright {
   .hotel .slider .slider-center .slider-right1, .hotel .slider .slider-center .slider-right2 {
     border-radius: 12.5px 0 0 12.5px;
   }
-
   .glimmer .slider .slider-center {
     width: 324px;
     height: 182.25px;
@@ -857,12 +866,10 @@ footer section .copyright {
   .glimmer .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
   }
-
   .wargroove .slider .slider-center {
     width: 341.36px;
     height: 192px;
   }
-
   .shockndroids .slider .slider-center {
     width: 386px;
     height: 216.5px;
@@ -876,12 +883,13 @@ footer section .copyright {
   .shockndroids .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
   }
-
   .rivalsofaether .slider .slider-center {
     width: 320px;
     height: 180px;
   }
-
+  .yugioh .label-left {
+    font-size: 0.9rem;
+  }
   footer section .footer-blocks {
     flex-direction: column;
     align-items: center;
