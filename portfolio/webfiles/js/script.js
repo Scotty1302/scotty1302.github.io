@@ -5,8 +5,9 @@ let GDButton = document.querySelector(".gd-projects");
 let LDButton = document.querySelector(".ld-projects");
 let WDButton = document.querySelector(".wd-projects");
 let SDButton = document.querySelector(".sd-projects");
+let VAButton = document.querySelector(".va-projects");
 let APBActive = true;
-let GDBActive, LDBActive, WDBActive, SDBActive = false;
+let GDBActive, LDBActive, WDBActive, SDBActive, VABActive = false;
 let allProjects = document.querySelectorAll(".thumbnail-group");
 let allCaptions = document.querySelectorAll(".thumbnail-group p");
 let sliderLeft1 = document.querySelectorAll(".slider .slider-center .slider-left1");
@@ -502,11 +503,13 @@ if(allProjectsButton){
             LDBActive = false;
             WDBActive = false;
             SDBActive = false;
+            VABActive = false;
             allProjectsButton.style.backgroundColor = "#DDDDDD";
             GDButton.style.backgroundColor = "#777887";
             LDButton.style.backgroundColor = "#777887";
             WDButton.style.backgroundColor = "#777887";
             SDButton.style.backgroundColor = "#777887";
+            VAButton.style.backgroundColor = "#777887";
             if(oneProject.className.includes("hidden")){
                 oneProject.classList.remove("hidden");
             }
@@ -527,11 +530,13 @@ if(GDButton){
             LDBActive = false;
             WDBActive = false;
             SDBActive = false;
+            VABActive = false;
             allProjectsButton.style.backgroundColor = "#777887";
             GDButton.style.backgroundColor = "#DDDDDD";
             LDButton.style.backgroundColor = "#777887";
             WDButton.style.backgroundColor = "#777887";
             SDButton.style.backgroundColor = "#777887";
+            VAButton.style.backgroundColor = "#777887";
             if(GDProjects.className.includes("gd") && GDProjects.className.includes("hidden")){
                 GDProjects.classList.remove("hidden");
             }
@@ -555,11 +560,13 @@ if(LDButton){
             LDBActive = true;
             WDBActive = false;
             SDBActive = false;
+            VABActive = false;
             allProjectsButton.style.backgroundColor = "#777887";
             GDButton.style.backgroundColor = "#777887";
             LDButton.style.backgroundColor = "#DDDDDD";
             WDButton.style.backgroundColor = "#777887";
             SDButton.style.backgroundColor = "#777887";
+            VAButton.style.backgroundColor = "#777887";
             if(LDProjects.className.includes("ld") && LDProjects.className.includes("hidden")){
                 LDProjects.classList.remove("hidden");
             }
@@ -583,11 +590,13 @@ if(WDButton){
             LDBActive = false;
             WDBActive = true;
             SDBActive = false;
+            VABActive = false;
             allProjectsButton.style.backgroundColor = "#777887";
             GDButton.style.backgroundColor = "#777887";
             LDButton.style.backgroundColor = "#777887";
             WDButton.style.backgroundColor = "#DDDDDD";
             SDButton.style.backgroundColor = "#777887";
+            VAButton.style.backgroundColor = "#777887";
             if(WDProjects.className.includes("wd") && WDProjects.className.includes("hidden")){
                 WDProjects.classList.remove("hidden");
             }
@@ -611,11 +620,13 @@ if(SDButton){
             LDBActive = false;
             WDBActive = false;
             SDBActive = true;
+            VABActive = false;
             allProjectsButton.style.backgroundColor = "#777887";
             GDButton.style.backgroundColor = "#777887";
             LDButton.style.backgroundColor = "#777887";
             WDButton.style.backgroundColor = "#777887";
             SDButton.style.backgroundColor = "#DDDDDD";
+            VAButton.style.backgroundColor = "#777887";
             if(SDProjects.className.includes("sd") && SDProjects.className.includes("hidden")){
                 SDProjects.classList.remove("hidden");
             }
@@ -627,6 +638,36 @@ if(SDButton){
     SDButton.onmouseout=()=>{
         if(!SDBActive){
             SDButton.style.backgroundColor = "#777887";
+        }
+    }
+}
+
+if(VAButton){
+    VAButton.onclick=()=>{
+        allProjects.forEach(VAProjects => {
+            APBActive = false;
+            GDBActive = false;
+            LDBActive = false;
+            WDBActive = false;
+            SDBActive = false;
+            VABActive = true;
+            allProjectsButton.style.backgroundColor = "#777887";
+            GDButton.style.backgroundColor = "#777887";
+            LDButton.style.backgroundColor = "#777887";
+            WDButton.style.backgroundColor = "#777887";
+            SDButton.style.backgroundColor = "#777887";
+            VAButton.style.backgroundColor = "#DDDDDD";
+            if(VAProjects.className.includes("va") && VAProjects.className.includes("hidden")){
+                VAProjects.classList.remove("hidden");
+            }
+            if(!VAProjects.className.includes("va")){
+                VAProjects.classList.add("hidden");
+            }
+        });
+    }
+    VAButton.onmouseout=()=>{
+        if(!VABActive){
+            VAButton.style.backgroundColor = "#777887";
         }
     }
 }
