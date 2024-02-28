@@ -647,6 +647,40 @@ main section .scrollToTop:hover {
   margin: 0.5rem auto 1rem auto;
 }
 
+.tacticalrpg .slider .slider-center {
+  width: 640px;
+  height: 360px;
+}
+
+.tacticalart {
+  /*.slider {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      .slider-center {
+          margin-top: 1rem;
+          width: 448px;
+          height: 256px;
+          .slider-picture1, .slider-picture2, .slider-picture3, .slider-picture4 {
+              position: relative;
+              img {
+              }
+          }
+      }
+  }*/
+}
+.tacticalart h4 {
+  margin: auto;
+  text-align: center;
+}
+.tacticalart h5 {
+  margin: 0.5rem auto 1rem auto;
+  text-align: center;
+}
+.tacticalart .solo-picture {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 footer section {
   border-top: 2px #DDDDDD solid;
   max-width: 1440px;
@@ -780,6 +814,19 @@ footer section .copyright {
     border-radius: 0 12.5px 12.5px 0;
   }
   .rivalsofaether .slider .slider-center .slider-right1, .rivalsofaether .slider .slider-center .slider-right2, .rivalsofaether .slider .slider-center .slider-right3, .rivalsofaether .slider .slider-center .slider-right4 {
+    border-radius: 12.5px 0 0 12.5px;
+  }
+  .tacticalrpg .slider .slider-center {
+    width: 320px;
+    height: 180px;
+  }
+  .tacticalrpg .slider .slider-center .slider-left1, .tacticalrpg .slider .slider-center .slider-right1 {
+    font-size: 2.25rem;
+  }
+  .tacticalrpg .slider .slider-center .slider-left1 {
+    border-radius: 0 12.5px 12.5px 0;
+  }
+  .tacticalrpg .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
   }
 }
