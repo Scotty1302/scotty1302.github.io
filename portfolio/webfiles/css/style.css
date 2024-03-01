@@ -9,7 +9,6 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 1.9rem;
   margin: 3rem auto 4.5rem auto;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: #DDDDDD;
@@ -189,7 +188,6 @@ main section .solo-picture {
   display: flex;
   border: 2px solid black;
   border-radius: 5px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -199,7 +197,6 @@ main section .solo-picture img {
 main section .transparent-picture {
   margin: 3rem auto 0 auto;
   display: flex;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -214,7 +211,6 @@ main section .solo-video {
   display: flex;
   border: 2px solid black;
   border-radius: 5px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   justify-content: center;
@@ -236,7 +232,6 @@ main section .middle-picture {
   display: flex;
   border: 2px solid black;
   border-radius: 5px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -248,7 +243,6 @@ main section .progression-loop {
   display: flex;
   border: 2px solid black;
   border-radius: 5px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -274,7 +268,6 @@ main section .solo-picture .label-left, main section .middle-picture .label-left
   position: absolute;
   bottom: 0;
   margin: 0;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: black;
@@ -315,7 +308,6 @@ main section .slider .slider-center .slider-picture3 .label-left, main section .
   position: absolute;
   bottom: 0;
   margin: 0;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: black;
@@ -373,7 +365,6 @@ main section .redirect-buttons .return, main section .redirect-buttons .next, ma
   text-transform: uppercase;
   text-decoration: none;
   display: flex;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   transition-duration: 0.3s;
@@ -524,7 +515,6 @@ main section .scrollToTop:hover {
   margin: 3rem auto 0 auto;
   display: flex;
   justify-content: center;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -621,10 +611,6 @@ main section .scrollToTop:hover {
   margin-bottom: 0;
 }
 
-.calculatrice .last-line {
-  margin-bottom: 4rem;
-}
-
 .district-aisne-billard .last-line {
   margin-bottom: 10rem;
 }
@@ -632,7 +618,6 @@ main section .scrollToTop:hover {
 .yugioh .middle-picture {
   max-width: 520.5px;
   max-height: 760px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -647,27 +632,20 @@ main section .scrollToTop:hover {
   margin: 0.5rem auto 1rem auto;
 }
 
-.tacticalrpg .slider .slider-center {
-  width: 640px;
-  height: 360px;
+.illustration h4 {
+  margin: auto;
+  text-align: center;
+}
+.illustration .projects-group .projects-block .thumbnail-group a {
+  width: 200px;
+  height: 200px;
+}
+.illustration .projects-group .projects-block .thumbnail-group a img {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.5s;
 }
 
-.tacticalart {
-  /*.slider {
-      margin-top: 1rem;
-      margin-bottom: 2rem;
-      .slider-center {
-          margin-top: 1rem;
-          width: 448px;
-          height: 256px;
-          .slider-picture1, .slider-picture2, .slider-picture3, .slider-picture4 {
-              position: relative;
-              img {
-              }
-          }
-      }
-  }*/
-}
 .tacticalart h4 {
   margin: auto;
   text-align: center;
@@ -678,7 +656,11 @@ main section .scrollToTop:hover {
 }
 .tacticalart .solo-picture {
   margin-top: 1rem;
-  margin-bottom: 2rem;
+}
+
+.tacticalrpg .slider .slider-center {
+  width: 640px;
+  height: 360px;
 }
 
 footer section {
@@ -725,13 +707,11 @@ footer section .footer-blocks .cv-all {
 }
 footer section .footer-blocks .cv-all a {
   margin-bottom: 1rem;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 footer section .copyright {
   margin: 2rem auto;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: #DDDDDD;
@@ -762,9 +742,6 @@ footer section .copyright {
   .shockndroids .slider .slider-center {
     width: 579px;
     height: 324.75px;
-  }
-  .calculatrice .last-line {
-    margin-bottom: 2rem;
   }
   .district-aisne-billard .last-line {
     margin-bottom: 2rem;
@@ -936,6 +913,13 @@ footer section .copyright {
   }
   .yugioh .label-left {
     font-size: 0.9rem;
+  }
+  .illustration .projects-group .projects-block .thumbnail-group p {
+    margin-bottom: 1rem;
+  }
+  .illustration .projects-group .projects-block .thumbnail-group a {
+    width: 180px;
+    height: 160px;
   }
   footer section .footer-blocks {
     flex-direction: column;

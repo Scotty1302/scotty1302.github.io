@@ -462,10 +462,6 @@ main {
     }
 }
 
-.chuchurocket {
-}
-.megaman {
-}
 .arise {
     .slider {
         .slider-center {
@@ -635,11 +631,6 @@ main {
         }
     }
 }
-.calculatrice {
-    .last-line {
-        margin-bottom: 4rem;
-    }
-}
 .district-aisne-billard {
     .last-line {
         margin-bottom: 10rem;
@@ -662,11 +653,24 @@ main {
         }
     }
 }
-.tacticalrpg {
-    .slider {
-        .slider-center {
-            width: 640px;
-            height: 360px;
+.illustration {
+    h4 {
+        margin: auto;
+        text-align: center;
+    }
+    .projects-group {
+        .projects-block {
+            .thumbnail-group {
+                a {
+                    width: 200px;
+                    height: 200px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition-duration: .5s;
+                    }
+                }
+            }
         }
     }
 }
@@ -681,22 +685,15 @@ main {
     }
     .solo-picture {
         margin-top: 1rem;
-        margin-bottom: 2rem;
     }
-    /*.slider {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+}
+.tacticalrpg {
+    .slider {
         .slider-center {
-            margin-top: 1rem;
-            width: 448px;
-            height: 256px;
-            .slider-picture1, .slider-picture2, .slider-picture3, .slider-picture4 {
-                position: relative;
-                img {
-                }
-            }
+            width: 640px;
+            height: 360px;
         }
-    }*/
+    }
 }
 
 footer {
@@ -809,11 +806,6 @@ footer {
                 width: 579px;
                 height: 324.75px;
             }
-        }
-    }
-    .calculatrice {
-        .last-line {
-            margin-bottom: 2rem;
         }
     }
     .district-aisne-billard {
@@ -1082,25 +1074,23 @@ footer {
         .label-left {
             font-size: .9rem;
         }
-    //     .slider {
-    //         .slider-center {
-    //             width: 293px;
-    //             height: 427.5px;
-
-    //             .slider-left1, .slider-right1 {
-    //                 font-size: 2.25rem;
-    //             }
-    //             .slider-left1 {
-    //                 border-radius: 0 12.5px 12.5px 0;
-    //             }
-    //             .slider-right1 {
-    //                 border-radius: 12.5px 0 0 12.5px;
-    //             }
-    //             .label-left {
-    //                 font-size: .85rem;
-    //             }
-    //         }
-    //     }
+    }
+    .illustration {
+        .projects-group {
+            .projects-block {
+                .thumbnail-group {
+                    p {
+                        margin-bottom: 1rem;
+                    }
+                    a {
+                        width: 180px;
+                        height: 160px;
+                        img {
+                        }
+                    }
+                }
+            }
+        }
     }
 
     footer {
