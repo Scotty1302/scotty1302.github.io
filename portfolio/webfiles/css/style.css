@@ -651,8 +651,33 @@ main section .scrollToTop:hover {
   text-align: center;
 }
 .tacticalart h5 {
-  margin: 0.5rem auto 1rem auto;
+  margin: 1rem auto 0 auto;
   text-align: center;
+}
+.tacticalart .tact-art-group {
+  display: flex;
+  justify-content: center;
+}
+.tacticalart .tact-art-group .tact-art-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+.tacticalart .tact-art-group .tact-art-block p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.tacticalart .tact-art-group .tact-art-block img {
+  width: 100%;
+  margin: auto;
+}
+.tacticalart .tact-art-group .tact-art-block img:hover {
+  cursor: pointer;
+}
+.tacticalart .tact-art-group:nth-of-type(4) .tact-art-block p {
+  margin: auto 0;
 }
 .tacticalart .solo-picture {
   margin-top: 1rem;
@@ -805,6 +830,15 @@ footer section .copyright {
   }
   .tacticalrpg .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
+  }
+  .tacticalart .tact-art-group {
+    flex-direction: column;
+  }
+  .tacticalart .tact-art-group .tact-art-block {
+    padding: 0 1rem;
+  }
+  .tacticalart .tact-art-group .tact-art-block img {
+    margin: auto auto 0 auto;
   }
 }
 @media screen and (max-width: 600px) {
