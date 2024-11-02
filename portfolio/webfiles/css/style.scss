@@ -686,6 +686,7 @@ main {
     .tact-art-group {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         .tact-art-block {
             display: flex;
             flex-direction: column;
@@ -697,7 +698,8 @@ main {
                 margin-bottom: 0;
             }
             img {
-                width: 100%;
+                width: 256px;
+                height: 128px;
                 margin: auto;
                 &:hover {
                     cursor: pointer;
@@ -957,7 +959,7 @@ footer {
     }
     .tacticalart {
         .tact-art-group {
-            flex-direction: column;
+            //flex-direction: column;
             .tact-art-block {
                 padding: 0 1rem;
                 img {

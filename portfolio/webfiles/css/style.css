@@ -657,6 +657,7 @@ main section .scrollToTop:hover {
 .tacticalart .tact-art-group {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .tacticalart .tact-art-group .tact-art-block {
   display: flex;
@@ -670,7 +671,8 @@ main section .scrollToTop:hover {
   margin-bottom: 0;
 }
 .tacticalart .tact-art-group .tact-art-block img {
-  width: 100%;
+  width: 256px;
+  height: 128px;
   margin: auto;
 }
 .tacticalart .tact-art-group .tact-art-block img:hover {
@@ -830,9 +832,6 @@ footer section .copyright {
   }
   .tacticalrpg .slider .slider-center .slider-right1 {
     border-radius: 12.5px 0 0 12.5px;
-  }
-  .tacticalart .tact-art-group {
-    flex-direction: column;
   }
   .tacticalart .tact-art-group .tact-art-block {
     padding: 0 1rem;
