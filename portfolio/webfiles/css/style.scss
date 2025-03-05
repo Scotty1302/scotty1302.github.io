@@ -718,14 +718,6 @@ main {
         margin-top: 1rem;
     }
 }
-.tacticalrpg {
-    .slider {
-        .slider-center {
-            width: 640px;
-            height: 360px;
-        }
-    }
-}
 
 footer {
     section {
@@ -929,29 +921,6 @@ footer {
                     border-radius: 0 12.5px 12.5px 0;
                 }
                 .slider-right1, .slider-right2, .slider-right3, .slider-right4 {
-                    border-radius: 12.5px 0 0 12.5px;
-                }
-            }
-        }
-    }
-    .tacticalrpg {
-        .slider {
-            .slider-center {
-                width: 320px;
-                height: 180px;
-                .slider-picture1 {
-                    img {
-                    }
-                }
-                .slider-left1, .slider-right1 {
-                    font-size: 2.25rem;
-                    &:hover {
-                    }
-                }
-                .slider-left1 {
-                    border-radius: 0 12.5px 12.5px 0;
-                }
-                .slider-right1 {
                     border-radius: 12.5px 0 0 12.5px;
                 }
             }
