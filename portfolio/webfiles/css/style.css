@@ -685,6 +685,49 @@ main section .scrollToTop:hover {
   margin-top: 1rem;
 }
 
+.ubisoft {
+  /*background: #CFCFCF;
+  background: linear-gradient(180deg, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 1) 20%, rgba(104, 55, 153, 1) 40%, rgba(104, 55, 153, 1) 60%, rgba(61, 107, 39, 1) 80%, rgba(61, 107, 39, 1) 100%);*/
+}
+.ubisoft .center-text {
+  text-align: center;
+}
+.ubisoft .ubisoft-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ubisoft .ubisoft-group .ubisoft-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+  justify-content: center;
+}
+.ubisoft .ubisoft-group .ubisoft-block p {
+  margin-bottom: 0;
+}
+.ubisoft .ubisoft-group .ubisoft-block a {
+  color: #DDDDDD;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+.ubisoft .ubisoft-group .ubisoft-block img {
+  width: 480px;
+  height: 270px;
+  margin: auto;
+}
+.ubisoft .ubisoft-group .ubisoft-block img:hover {
+  cursor: pointer;
+}
+.ubisoft .ubisoft-group:nth-of-type(2) .ubisoft-block p {
+  margin: auto;
+}
+.ubisoft .solo-picture {
+  margin-top: 1rem;
+}
+
 footer section {
   border-top: 2px #DDDDDD solid;
   max-width: 1440px;

@@ -718,6 +718,52 @@ main {
         margin-top: 1rem;
     }
 }
+.ubisoft {
+    /*background: #CFCFCF;
+    background: linear-gradient(180deg, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 1) 20%, rgba(104, 55, 153, 1) 40%, rgba(104, 55, 153, 1) 60%, rgba(61, 107, 39, 1) 80%, rgba(61, 107, 39, 1) 100%);*/
+    .center-text{
+        text-align: center;
+    }
+    .ubisoft-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .ubisoft-block {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin-bottom: 1rem;
+            padding: 0 .5rem;
+            justify-content: center;
+            p {
+                margin-bottom: 0;
+            }
+            a {
+                color: #DDDDDD;
+                text-decoration: underline;
+                font-size: 1.1rem;
+            }
+            img {
+                width: 480px;
+                height: 270px;
+                margin: auto;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        &:nth-of-type(2) {
+            .ubisoft-block {
+                p {
+                    margin: auto;
+                }
+            }
+        }
+    }
+    .solo-picture {
+        margin-top: 1rem;
+    }
+}
 
 footer {
     section {
