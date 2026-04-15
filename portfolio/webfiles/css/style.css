@@ -685,6 +685,53 @@ main section .scrollToTop:hover {
   margin-top: 1rem;
 }
 
+.tacticalmusic h4 {
+  margin: auto;
+  text-align: center;
+}
+.tacticalmusic h5 {
+  margin: 1rem auto 0 auto;
+  text-align: center;
+}
+.tacticalmusic .tact-music-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tacticalmusic .tact-music-group .tact-music-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+.tacticalmusic .tact-music-group .tact-music-block p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.tacticalmusic .tact-music-group .tact-music-block img {
+  width: 256px;
+  height: 128px;
+  margin: auto;
+}
+.tacticalmusic .tact-music-group .tact-music-block img:hover {
+  cursor: pointer;
+}
+.tacticalmusic .tact-music-group .tact-music-block .audio-group {
+  display: inline-block;
+  text-align: center;
+}
+.tacticalmusic .tact-music-group .tact-music-block .audio-group audio {
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.tacticalmusic .tact-music-group:nth-of-type(4) .tact-music-block p {
+  margin: auto 0;
+}
+.tacticalmusic .solo-picture {
+  margin-top: 1rem;
+}
+
 .ubisoft {
   /*background: #CFCFCF;
   background: linear-gradient(180deg, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 1) 20%, rgba(104, 55, 153, 1) 40%, rgba(104, 55, 153, 1) 60%, rgba(61, 107, 39, 1) 80%, rgba(61, 107, 39, 1) 100%);*/
