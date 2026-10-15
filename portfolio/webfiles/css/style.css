@@ -646,6 +646,21 @@ main section .scrollToTop:hover {
   transition-duration: 0.5s;
 }
 
+.tacticalrpg .slider {
+  margin-top: 1rem;
+}
+.tacticalrpg .slider .slider-center {
+  margin-top: 1rem;
+  width: 640px;
+  height: 360px;
+}
+.tacticalrpg .slider .slider-center .slider-picture1, .rivalsofaether .slider .slider-center .slider-picture2, .rivalsofaether .slider .slider-center .slider-picture3, .rivalsofaether .slider .slider-center .slider-picture4 {
+  position: relative;
+}
+.tacticalrpg .slider-modal-div .slider {
+  margin-bottom: 0;
+}
+
 .tacticalart h4 {
   margin: auto;
   text-align: center;
